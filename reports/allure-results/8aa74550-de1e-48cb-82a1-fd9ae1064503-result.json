@@ -1,0 +1,1 @@
+{"name": "Hybrid Scenario 1: UI to API Validation", "status": "passed", "start": 1778151401622, "stop": 1778151429393, "uuid": "69753f94-2d21-40c6-a9ae-75465c8e788f", "testCaseId": "0782ffc582c4f065439c191b47eb6d42", "fullName": "tests.test_hybrid#test_ui_to_api_validation", "titlePath": ["tests", "test_hybrid.py"]}

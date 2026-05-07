@@ -1,0 +1,2 @@
+CURRENT URL: https://practice.expandtesting.com/notes/app/login
+TITLE: Notes React Application for Automation Testing Practice

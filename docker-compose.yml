@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  selenium-grid:
+    image: selenium/standalone-chrome
+    ports:
+      - "4444:4444"
+
+  automation-tests:
+    build: .
+    depends_on:
+      - selenium-grid
+    command: pytest -n 1 --alluredir=reports/allure-results
