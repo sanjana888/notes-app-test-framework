@@ -103,7 +103,6 @@ This section covers the automation of the UI and API, along with Hybrid Testing.
 
 # Automation Framework Structure
 
----
 Project/
 │
 ├── tests/
@@ -155,7 +154,6 @@ Project/
 ├── conftest.py
 ├── .gitignore
 └── README.md
----
 
 # UI Automation Coverage
 
