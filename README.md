@@ -101,6 +101,9 @@ This section covers the automation of the UI and API, along with Hybrid Testing.
 
 # Automation Framework Structure
 
+# Automation Framework Structure
+
+---
 Project/
 │
 ├── tests/
@@ -144,9 +147,7 @@ Project/
 │   └── selenium_grid_setup.txt
 │
 ├── reports/
-│
 ├── screenshots/
-│
 ├── drivers/
 │
 ├── requirements.txt
@@ -154,7 +155,6 @@ Project/
 ├── conftest.py
 ├── .gitignore
 └── README.md
-
 ---
 
 # UI Automation Coverage
