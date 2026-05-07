@@ -1,5 +1,7 @@
-import time
+# Demonstrate parallel test execution.
+# Validate multiple sessions together.
 
+import time
 
 def test_parallel_1(driver):
 

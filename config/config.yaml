@@ -1,3 +1,6 @@
+# Store project configuration values.
+# Common settings used across tests.
+
 base_url: "https://practice.expandtesting.com/notes/app/login"
 
 api_url: "https://practice.expandtesting.com/notes/api"

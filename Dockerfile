@@ -1,3 +1,7 @@
+# Use Python image for automation setup.
+# Install project dependencies inside container.
+# Run automation tests automatically.
+
 FROM python:3.11
 
 WORKDIR /app

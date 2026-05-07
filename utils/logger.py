@@ -1,3 +1,6 @@
+# Configure framework logging.
+# Save logs for debugging purpose.
+
 import logging
 
 logging.basicConfig(

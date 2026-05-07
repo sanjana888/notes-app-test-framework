@@ -1,3 +1,6 @@
+# Generate dynamic test data.
+# Provide reusable utility methods.
+
 import random
 import string
 

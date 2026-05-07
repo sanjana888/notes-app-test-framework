@@ -1,3 +1,6 @@
+# Measure API response performance.
+# Track execution timing details.
+
 import allure
 from utils.api_client import login_api, get_notes
 from utils.performance_utils import measure_execution_time, log_performance

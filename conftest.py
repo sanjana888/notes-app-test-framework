@@ -3,6 +3,9 @@ import pytest
 import allure
 from fixtures.browser_fixture import driver
 
+# Capture screenshot when test fails.
+# Save failure screenshot for reporting.
+
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item):
     outcome = yield

@@ -1,3 +1,6 @@
+# Jenkins pipeline for automation execution.
+# Run tests and generate reports automatically.
+
 pipeline {
 
     agent any

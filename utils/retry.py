@@ -1,3 +1,6 @@
+# Retry failed actions automatically.
+# Useful for temporary execution issues.
+
 import time
 
 def retry_action(func, retries=3):

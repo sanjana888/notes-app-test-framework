@@ -1,5 +1,7 @@
-from utils.mcp_utils import MCPUtils
+# Demo test for MCP utility features.
+# Validate generated test data support.
 
+from utils.mcp_utils import MCPUtils
 
 def test_mcp_data_generation():
 

@@ -1,3 +1,6 @@
+# Handle reusable API requests.
+# Keep API logic separate from tests.
+
 import requests
 from config.environment import load_config
 

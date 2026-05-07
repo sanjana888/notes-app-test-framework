@@ -1,3 +1,6 @@
+# Verify login with invalid credentials.
+# Ensure error handling works properly.
+
 import yaml
 from pages.login_page import LoginPage
 

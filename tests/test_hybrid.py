@@ -1,3 +1,6 @@
+# Validate UI and API flow together.
+# Verify data consistency across layers.
+
 import time
 import allure
 

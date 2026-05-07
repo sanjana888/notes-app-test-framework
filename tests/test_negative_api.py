@@ -1,3 +1,6 @@
+# Verify API behavior with invalid token.
+# Ensure unauthorized access is blocked.
+
 import requests
 import yaml
 

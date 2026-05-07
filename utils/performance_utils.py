@@ -1,3 +1,6 @@
+# Track execution performance.
+# Save timing details for analysis.
+
 import time
 import csv
 import os

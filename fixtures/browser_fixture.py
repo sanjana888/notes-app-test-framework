@@ -4,6 +4,8 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+# Launch browser before test execution.
+# Close browser after test completion.
 
 @pytest.fixture
 def driver():

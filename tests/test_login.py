@@ -1,3 +1,6 @@
+# Verify successful user login.
+# Check navigation after login.
+
 from pages.login_page import LoginPage
 from config.environment import load_config
 import time

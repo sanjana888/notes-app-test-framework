@@ -43,3 +43,5 @@ GET /notes response time,14.95
 UI page load time,43.33
 GET /notes response time,1.73
 UI page load time,24.04
+GET /notes response time,5.55
+UI page load time,31.69

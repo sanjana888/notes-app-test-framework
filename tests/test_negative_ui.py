@@ -1,3 +1,6 @@
+# Verify handling of invalid UI actions.
+# Check application error behavior.
+
 import yaml
 
 with open("config/config.yaml") as file:

@@ -1,3 +1,6 @@
+# Docker setup for Selenium Grid execution.
+# Run automation tests inside containers.
+
 version: '3'
 
 services:

@@ -1,3 +1,6 @@
+# Validate API response data.
+# Verify status code and response.
+
 import allure
 from utils.api_client import login_api, get_notes, delete_note
 

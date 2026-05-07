@@ -1,3 +1,6 @@
+# Test note creation in UI.
+# Validate note is displayed correctly.
+
 from pages.login_page import LoginPage
 from pages.notes_page import NotesPage
 from config.environment import load_config

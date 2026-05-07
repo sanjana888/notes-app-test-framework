@@ -1,3 +1,7 @@
+# Reusable browser actions for all pages.
+# Common methods shared across page classes.
+
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 

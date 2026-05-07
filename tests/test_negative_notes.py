@@ -1,3 +1,6 @@
+# Test invalid note creation scenarios.
+# Validate mandatory field checks.
+
 from pages.login_page import LoginPage
 from pages.notes_page import NotesPage
 import yaml

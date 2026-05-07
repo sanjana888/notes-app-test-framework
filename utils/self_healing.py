@@ -1,3 +1,6 @@
+# Try alternate locators if one fails.
+# Reduce failures caused by UI changes.
+
 from selenium.common.exceptions import NoSuchElementException
 
 def find_element_self_healing(driver, locators):
