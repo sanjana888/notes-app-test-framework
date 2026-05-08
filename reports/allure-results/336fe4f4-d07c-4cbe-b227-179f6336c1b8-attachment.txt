@@ -1,0 +1,1 @@
+{'primary_locator': "//button[text()='Save']", 'fallback_locator': "//button[contains(text(),'Save')]"}
