@@ -10,11 +10,20 @@ def driver():
 
     chrome_options = Options()
 
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--window-size=1920,1080")
+    # Detect Jenkins environment
+    is_jenkins = os.getenv("JENKINS_HOME")
 
+    if is_jenkins:
+        # Jenkins / CI execution
+        chrome_options.add_argument("--headless=new")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--window-size=1920,1080")
+    else:
+        # Local execution
+        chrome_options.add_argument("--start-maximized")
+
+    # Selenium Grid check
     use_grid = os.getenv("GRID", "false").lower() == "true"
 
     if use_grid:
